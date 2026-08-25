@@ -1,0 +1,124 @@
+.education {
+  padding: 100px 0;
+  background: var(--color-bg);
+}
+
+.education__timeline {
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+.education__timeline--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.education__item {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.education__marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.education__dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  border: 3px solid var(--color-bg);
+  box-shadow: 0 0 0 2px var(--color-accent);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.education__line {
+  width: 2px;
+  flex: 1;
+  background: var(--color-border);
+  margin-top: 0.5rem;
+}
+
+.education__content {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 2rem;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.education__content:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+.education__badge {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-cream);
+  border-radius: 10px;
+  color: var(--color-accent-dark);
+  margin-bottom: 1rem;
+}
+
+.education__status {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.education__status--current {
+  background: rgba(139, 119, 86, 0.1);
+  color: var(--color-accent-dark);
+}
+
+.education__degree {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.3px;
+}
+
+.education__school {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  margin: 0 0 0.35rem 0;
+}
+
+.education__year {
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .education {
+    padding: 70px 0;
+  }
+
+  .education__content {
+    padding: 1.5rem;
+  }
+
+  .education__degree {
+    font-size: 1.15rem;
+  }
+}
