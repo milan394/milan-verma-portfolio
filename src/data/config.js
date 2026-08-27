@@ -7,7 +7,7 @@ const config = {
   linkedin: "https://www.linkedin.com/in/milan-verma-36463a418?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
   github: "",
   resumePath: "/assets/resume.pdf",
-  profileImage: "/assets/profile.png",
+  profileImage: "/assets/profile.jpg",
   tagline: "Frontend Web Developer",
   heroDescription:
     "I build clean, responsive and user-focused web experiences with modern frontend technologies.",

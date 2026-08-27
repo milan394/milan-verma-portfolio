@@ -2,7 +2,7 @@
 
 A clean, modern, and fully responsive personal portfolio website built with React and Vite. Designed to showcase frontend development skills and projects to recruiters and freelance clients.
 
-**Live site:** [View Portfolio](https://your-deployment-url)
+**Live site:** [https://milan394.github.io/milan-verma-portfolio/](https://milan394.github.io/milan-verma-portfolio/)
 
 ## Features
 
